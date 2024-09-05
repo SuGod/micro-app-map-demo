@@ -1,0 +1,23 @@
+{
+  "name": "@kindi/map-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite-plugin-mars3d": "^4.1.1",
+    "vite-plugin-static-copy": "^1.0.6"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.1.0",
+    "mars3d": "^3.8.1",
+    "mars3d-cesium": "^1.120.2"
+  }
+}

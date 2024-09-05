@@ -1,0 +1,20 @@
+{
+  "name": "micro-app-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:main": "pnpm -F @kindi/main-app dev",
+    "dev:map": "pnpm -F @kindi/map-app dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@micro-zoe/micro-app": "1.0.0-rc.8",
+    "@vitejs/plugin-vue": "^5.1.3",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "vite": "^5.4.3",
+    "vue": "^3.5.1"
+  }
+}
