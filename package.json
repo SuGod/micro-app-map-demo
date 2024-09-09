@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev:main": "pnpm -F @kindi/main-app dev",
-    "dev:map": "pnpm -F @kindi/map-app dev"
+    "dev:map": "pnpm -F @kindi/map-app dev",
+    "dev:map-wb": "pnpm -F @kindi/map-app-wb serve"
   },
   "keywords": [],
   "author": "",

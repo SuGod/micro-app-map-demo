@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@micro-zoe/micro-app": "1.0.0-rc.8"
+    "@micro-zoe/micro-app": "1.0.0-rc.8",
+    "qiankun": "^2.10.16"
   }
 }

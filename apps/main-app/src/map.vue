@@ -1,11 +1,22 @@
 <script setup>
 
+defineProps({
+  name: {
+    type: String,
+    required: true
+  },
+  url: {
+    type: String,
+    required: true,
+  }
+})
+
 </script>
 
 <template>
   <micro-app
-    name="cesium-map"
-    url="http://localhost:8002/"
+    :name="name"
+    :url="url"
     iframe
     inline
     disable-scopecss
